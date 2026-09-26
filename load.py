@@ -7,8 +7,6 @@ PDF_PATH = Path(__file__).parent / "2007_exercise_mindset_crumlanger_psych_sci.p
 
 
 def load_documents(path=PDF_PATH):
-    # One Document per page (not one big string) so the page number survives in metadata;
-    # later that lets us show which page a retrieved chunk came from.
     loader = PyPDFLoader(str(path))
     return loader.load()
 
