@@ -1,0 +1,7 @@
+PROGRESS.md
+
+# Python bytecode cache, regenerated automatically on every run
+__pycache__/
+
+# Chroma's on-disk vector store, rebuilt by store.py from the PDF
+chroma_db/
